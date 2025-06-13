@@ -21,7 +21,7 @@ open the project in vscode
     ( copy .env.example and paste it as .env ) 
 
 // 5 database configuration [ also create a database on phpMyAdmin ]:
-
+    DB_CONNECTION=mysql #in laravel 11 and above (instead of sqlite)
     DB_DATABASE=(db-name)
     DB_USERNAME=(root)
     DB_PASSWORD=(paswword)
